@@ -1,0 +1,49 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    color: hsl(0, 4%, 33%);
+}
+#main-title {
+    color: #0d0dd1;
+    text-align: center;
+    font-size: 32px;
+}
+
+.navigation {
+    text-align: center;
+    font-size: 18px;
+}
+.section-title {
+    color: #058791;
+    font-size: 24px;
+}
+
+.profile-photo {
+    border: 3px solid #993344;
+    padding: 5px;
+}
+.navigation a {
+    color: #b80c0c;
+    text-decoration: none;
+}
+.gallery-photo {
+    border: 2px solid #999999;
+    padding: 5px;
+    margin: 10px;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+.contact-form {
+    border: 2px solid #999999;
+    padding: 20px;
+    margin: 20px;
+}
+
+.gallery-item {
+    display: inline-block;
+    vertical-align: top;
+    width: 280px;
+    margin: 15px;
+    text-align: center;
+}

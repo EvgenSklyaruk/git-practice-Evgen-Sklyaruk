@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="uk">
-<head>
+
     <meta charset="UTF-8">
     <title>Ремонт та оздоблення - Євген Склярук</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <h1>Ремонт та оздоблення квартир</h1>
+    <h1 id="main-title">Ремонт та оздоблення квартир</h1>
 
     <h2>Євген Склярук</h2>
 
-    <nav>
+    <nav class="navigation">
         <a href="index.html">Головна</a> |
         <a href="pages/contact.html">Контакти</a> |
         <a href="pages/gallery.html">Галерея</a>
@@ -18,22 +19,22 @@
 
     <hr>
 
-    <h2>Про мене</h2>
+    <h2 class="section-title">Про мене</h2>
 
-   <img src="photo/evgen .jpg" alt="Фото Євгена Склярука" width="300">
+   <img class="profile-photo" src="photo/evgen .jpg" alt="Фото Євгена Склярука" width="300">
 
 
-    <p>
-        Мене звати Євген. Я займаюся ремонтом
-        та оздобленням квартир і будинків.
-    </p>
+ <p class="about-text">
+    Мене звати Євген. Я займаюся ремонтом
+    та оздобленням квартир і будинків.
+</p>
 
-    <p>
-        Виконую внутрішні та зовнішні оздоблювальні роботи.
-        У своїй роботі приділяю увагу якості та деталям.
-    </p>
+<p class="about-text">
+    Виконую внутрішні та зовнішні оздоблювальні роботи.
+    У своїй роботі приділяю увагу якості та деталям.
+</p>
 
-    <h2>Мої послуги</h2>
+    <h2 class="section-title">Мої послуги</h2>
 
     <ul>
         <li>Укладання плитки</li>
@@ -61,3 +62,7 @@
 
 </body>
 </html>
+.about-text {
+    font-size: 16px;
+    line-height: 1.5;
+}
